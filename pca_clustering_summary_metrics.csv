@@ -1,0 +1,7 @@
+Metric,Value
+PC1 Explained Variance,0.3437
+PC2 Explained Variance,0.3298
+Cumulative 2-Component Variance,0.6736
+K-Means K,3
+Silhouette Score,0.4486
+Inertia,15058.45

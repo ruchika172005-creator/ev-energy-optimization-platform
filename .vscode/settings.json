@@ -1,0 +1,7 @@
+{
+  "python.defaultInterpreterPath": "C:\\Users\\WINGS\\AppData\\Local\\Python\\pythoncore-3.14-64\\python.exe",
+  "python.analysis.extraPaths": [
+    "C:\\Users\\WINGS\\AppData\\Local\\Python\\pythoncore-3.14-64\\Lib\\site-packages",
+    "C:\\Users\\WINGS\\AppData\\Local\\Programs\\Python\\Python310\\Lib\\site-packages"
+  ]
+}
