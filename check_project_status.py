@@ -49,8 +49,11 @@ print("\n[2] TRAINED ML MODEL ARTIFACTS:")
 print("-" * 80)
 for label, mpath in models:
     if os.path.exists(mpath):
-        obj = joblib.load(mpath)
-        print(f"  [OK] {label:<26} : {mpath:<35} -> {obj.__class__.__name__}")
+        try:
+            obj = joblib.load(mpath)
+            print(f"  [OK] {label:<26} : {mpath:<35} -> {obj.__class__.__name__}")
+        except Exception as e:
+            print(f"  [WARN] {label:<24} : {mpath:<35} -> Load Error: {e}")
     else:
         print(f"  [MISSING] {label:<26} : {mpath}")
 
